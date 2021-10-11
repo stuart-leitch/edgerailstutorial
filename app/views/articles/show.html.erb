@@ -2,3 +2,7 @@
 
 <p><%= @article.body %></p>
 
+<ul>
+  <li><%= link_to "Edit", edit_article_path(@article) %></li>
+  <li><a href="<%= root_path %>">Home</a></li>
+</ul>
